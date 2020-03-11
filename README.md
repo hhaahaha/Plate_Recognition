@@ -114,7 +114,8 @@ test/word_3.png A
 ```
 3. Modify `--select_data`, `--batch_ratio`, and `opt.character`, see [this issue](https://github.com/clovaai/deep-text-recognition-benchmark/issues/85).
 
-### After FT model with custom dataset, put the 'best_model.sh' into './PlateRecognition/OCR/saved_models'
+### After FT model with custom dataset
+put the 'best_model.sh' into './PlateRecognition/OCR/saved_models'
 
 ## Credit
 ```
