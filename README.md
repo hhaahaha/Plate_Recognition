@@ -94,6 +94,7 @@ CUDA_VISIBLE_DEVICES=0 python3 demo.py \
 * `--Prediction`: select Prediction module [CTC | Attn].
 * `--saved_model`: assign saved model to evaluation.
 * `--benchmark_all_eval`: evaluate with 10 evaluation dataset versions, same with Table 1 in our paper.
+* `--FT`: fine tunning model with custom dataset.
 
 ### Make Custom Datasets
 1. make gt.txt for create 
