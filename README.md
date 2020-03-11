@@ -1,6 +1,14 @@
-# ALPR
+# ALPR (차량 번호판 인식)
+[<img src="https://j.gifs.com/wVABrX.gif" width="70%">](https://youtu.be/EIZpI8A1Qe0)
 
+##### Clone and install requirements
+```
+mkdir OCR
+git clone https://github.com/clovaai/deep-text-recognition-benchmark.git
+
+```
 ## Preparation
+
 
 ##### download virtual environment(Optional)
 
@@ -43,6 +51,8 @@ python3 detect.py --image_folder data/samples/ --weights_path weights/plate.weig
 eriklindernoren/PyTorch-YOLOv3
 
 tzutalin/labelImg
+
+clovaai/deep-text-recognition-benchmark
 ```
 
 sudo apt install libdvdnav4 libdvdread4 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
