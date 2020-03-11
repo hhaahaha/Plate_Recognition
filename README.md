@@ -112,7 +112,7 @@ python3 main.py
 
 ## Cooperation
 
-Thanks to Euysung @Brandon for implementing License Plate Detection, and working on this project together. 
+Thanks to Euysung [@Brandon](https://github.com/Cha-Euy-Sung) for implementing License Plate Detection, and working on this project together. 
 
 ## Credit
 ```
