@@ -3,7 +3,7 @@
 
 ##### env
 ```
-| UBUNTU 16.04 | python 3.6 | pytorch 1.4.0 | Opencv-python 4.2 |
+| UBUNTU 16.04 | python 3.6 | pytorch 1.4.0 | Opencv-python 4.2 | CUDA 10.1 |
 ```
 ##### Clone and install requirements
 ```
