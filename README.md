@@ -21,17 +21,14 @@ $ sudo pip3 install -r requirements.txt
 yy/bin/ 경로에서 source ./activate 
 ```
 ##### download pretrained weights
-
 [weights.zip](https://drive.google.com/file/d/1TVgXuKUXV57BzKNoc4lnE9514QN6Gh7-/view?usp=sharing)
 
 
 ##### download sample data
-
 [baza_slika.zip](https://drive.google.com/file/d/1eTEZuuWt6ZiV22eOJ4NJYmcz914BwDpE/view?usp=sharing)
 
 
 ## Test
-
 ```
 python3 detect.py --image_folder data/samples/ --weights_path weights/plate.weights 
 ```
@@ -48,6 +45,7 @@ python3 detect.py --image_folder data/samples/ --weights_path weights/plate.weig
     parser.add_argument("--img_size", type=int, default=500, help="size of each image dimension")
     parser.add_argument("--checkpoint_model", type=str, help="path to checkpoint model")
 ```
+
 # Training OCR model
 ## Train OCR model before put in Plate Recognition model
 ##### Clone and install requirements
@@ -104,7 +102,6 @@ python3 make_gt_txt.py --file_name gt.txt --dir_path data/image/
 ```
 2. Create your own lmdb dataset.
 ```
-pip3 install fire
 python3 create_lmdb_dataset.py --inputPath data/ --gtFile data/gt.txt --outputPath result/
 ```
 At this time, `gt.txt` should be `{imagepath}\t{label}\n` <br>
@@ -117,7 +114,7 @@ test/word_3.png A
 ```
 3. Modify `--select_data`, `--batch_ratio`, and `opt.character`, see [this issue](https://github.com/clovaai/deep-text-recognition-benchmark/issues/85).
 
-### After FT model with custom dataset, put the 'best_model.sh' into ./PlateRecognition/OCR/saved_models
+### After FT model with custom dataset, put the 'best_model.sh' into './PlateRecognition/OCR/saved_models'
 
 ## Credit
 ```
