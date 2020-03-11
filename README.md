@@ -7,7 +7,7 @@
 ```
 ##### Clone and install requirements
 ```
-$ git clone https://github.com/Cha-Euy-Sung/ALPR
+$ git clone https://github.com/hhaahaha/PlateRecognition.git
 $ cd ALPR/
 $ sudo pip3 install -r requirements.txt
 ```
