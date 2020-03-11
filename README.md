@@ -1,11 +1,15 @@
 # ALPR (차량 번호판 인식)
 [<img src="https://j.gifs.com/wVABrX.gif" width="70%">](https://youtu.be/EIZpI8A1Qe0)
 
+##### env
+```
+| UBUNTU 16.04 | python 3.6 | pytorch 1.4.0 | Opencv-python 4.2 |
+```
 ##### Clone and install requirements
 ```
-mkdir OCR
-git clone https://github.com/clovaai/deep-text-recognition-benchmark.git
-
+$ git clone https://github.com/Cha-Euy-Sung/ALPR
+$ cd ALPR/
+$ sudo pip3 install -r requirements.txt
 ```
 ## Preparation
 ##### download virtual environment(Optional)
