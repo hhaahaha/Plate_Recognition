@@ -49,7 +49,13 @@ python3 detect.py --image_folder data/samples/ --weights_path weights/plate.weig
     parser.add_argument("--checkpoint_model", type=str, help="path to checkpoint model")
 ```
 # OCR
-
+## Train OCR model before put in Plate Recognition model
+##### Clone and install requirements
+```
+$ mkdir OCR
+$ cd OCR
+$ git clone https://github.com/clovaai/deep-text-recognition-benchmark.git
+```
 ## Getting Started
 ### Dependency
 - This work was tested with PyTorch 1.3.1, CUDA 10.1, python 3.6 and Ubuntu 16.04. <br> You may need `pip3 install torch==1.3.1`. <br>
