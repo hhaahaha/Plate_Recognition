@@ -15,7 +15,7 @@
 
 #### Clone and install requirements
 ```
-$ git clone https://github.com/Cha-Euy-Sung/ALPR
+$ git clone https://github.com/hhaahaha/Plate_Recognition
 $ cd ALPR/
 $ sudo pip3 install -r requirements.txt
 ```
@@ -119,7 +119,7 @@ $ python3 main.py --video data/video/<video_name>
 ______
 ## Cooperation
 
-Thanks to Jinjoo[@hhaahaha](https://github.com/hhaahaha) for implementing Optical Character Recognition, and working on this project together. 
+Thanks to EuySung[@Cha-Euy-Sung](https://github.com/Cha-Euy-Sung) for implementing object detection by YOLO, and working on this project together. 
 
 
 ## Credit
