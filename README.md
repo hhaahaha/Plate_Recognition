@@ -126,6 +126,6 @@ Thanks to EuySung[@Cha-Euy-Sung](https://github.com/Cha-Euy-Sung) for implementi
 ```
 eriklindernoren/PyTorch-YOLOv3
 tzutalin/labelImg
-
+clovaai/deep-text-recognition-benchmark
 ```
 
